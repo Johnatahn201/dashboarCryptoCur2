@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.crypto-list {
+    margin-bottom: 20px;
+}
+
+.crypto-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.crypto-item:hover {
+    background-color: #f0f0f0;
+}
+
+.crypto-chart {
+    margin-top: 20px;
+}
